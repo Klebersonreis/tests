@@ -13,6 +13,7 @@ class MyCalcTest(unittest.TestCase):
         area.lado1 = 3
         area.lado2 = 9
 
+#teste do reusltado da area quadrada
         self.assertEqual(27, area.quadrada())
 
     def testAreaCubica(self):
@@ -20,7 +21,7 @@ class MyCalcTest(unittest.TestCase):
         area.lado1 = 3
         area.lado2 = 9 
         area.lado3 = 2
-        
+#teste do resultado da area cubica
         self.assertEqual(54, area.cubica())
 
 if __name__ == '__main__':
