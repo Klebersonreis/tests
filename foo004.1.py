@@ -23,6 +23,5 @@ class MyCalcTest(unittest.TestCase):
         
         self.assertEqual(54, area.cubica())
 
-
 if __name__ == '__main__':
     unittest.main()
